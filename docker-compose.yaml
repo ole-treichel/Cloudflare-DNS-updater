@@ -2,6 +2,7 @@ version: '3.3'
 
 services:
   cloudflare_dns_updater:
+    restart: always
     build:
       context: ./
       dockerfile: Dockerfile
