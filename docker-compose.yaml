@@ -6,4 +6,4 @@ services:
       context: ./
       dockerfile: Dockerfile
     volumes:
-      - ./config.json:/config.json
+      - ${PWD}/config.json:/config.json
